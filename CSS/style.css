@@ -41,4 +41,74 @@ header{
 .main-logo{
     margin-left: 50px;
 }
-
+.mid-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.mid-container .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    animation: example 5s linear 3s 5 forwards;
+}
+.slide{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.caption{
+    position: absolute;
+    top: 300px;
+    right:300px;
+    left: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    color: #ce3c83;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+p{
+    color: #000;
+}
+.slide1{
+    background: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slide2{
+    background: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slide3{
+    background: url(../images/banner3.png);
+    background-size: cover;
+    background-position: center;
+}
+.slide4{
+    background: url(../images/banner4.png);
+    background-size: cover;
+    background-position: center;
+}
+@keyframes example {
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
