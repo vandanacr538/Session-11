@@ -155,7 +155,7 @@ h1.headings{
     font-weight: bold;
     padding-top: 10px;
 }
-.prod-button{
+.btn{
     padding: 10px 30px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -165,11 +165,41 @@ h1.headings{
     cursor: pointer;
     border-radius: 10px;
 }
-.prod-button:hover{
+.btn:hover{
     color: #000000;
     background-color: #eeebeb;
     border: 1px solid #ce3c83;
 }
+.contact{
+    margin: 40px;
+}
+form{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.form-info:hover{
+    border: 2px solid #ce3c83;
+}
+.form-info:hover{
+    border: 2px solid #ce3c83;
+}
+.form-info:focus{
+    outline: none;
+    border: 2px solid #ce3c83;
+}
+
+
 
 
 
